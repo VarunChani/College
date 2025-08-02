@@ -1,0 +1,126 @@
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #002147;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+.navbar .logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  margin-left: 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("https://www.nmims.edu/images/home-slide/m-school-1.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 20px;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 20px;
+}
+.card {
+  background-color: white;
+  padding: 30px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Departments */
+.departments {
+  text-align: center;
+  padding: 40px;
+  background: #ffffff;
+}
+.departments h2 {
+  margin-bottom: 20px;
+}
+.dept-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.dept-list a {
+  color: white;             /* Change link text to white */
+  text-decoration: underline;    /* Remove underline */
+  display: block;           /* Makes entire button clickable */
+  padding: 10px 20px;       /* Move padding here */
+  border-radius: 8px;
+  font-weight: 500;
+  background-color: #007bff;
+  transition: background-color 0.3s;
+}
+
+.dept-list a:hover {
+  background-color: #0056b3;
+}
+
+/* Info Sections */
+.info-section {
+  padding: 40px;
+  text-align: center;
+  background: #f0f0f0;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}

@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+.center {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faculty-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.faculty-member {
+  text-align: center;
+}
+
+.circle-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.dept-navbar {
+  background: #003366;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.dept-navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.dept-navbar a {
+  color: white;
+  text-decoration: none;
+}
+.dept-navbar a:hover {
+  color: #ffcc00;
+}
+
+.section {
+  padding: 40px 20px;
+}
+.section h3 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+/* Faculty Section */
+.hod {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.circle-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 10px;
+}
+.professors, .assistants {
+  margin-bottom: 20px;
+}
+.professors ul, .assistants ul {
+  list-style: square;
+  padding-left: 40px;
+}
+
+.achievement-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  /* keeps image and text closer */
+  gap: 15px;                      /* smaller gap */
+  margin-bottom: 15px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.achievement-item img {
+  width: 180px; /* smaller size */
+  border-radius: 6px;
+}
+
+.achievement-item p {
+  flex: 1;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+/* Extra-Curricular & Placement Section */
+.extra-container, .placement-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+}
+
+.extra-container img, .placement-container img {
+  width: 180px;
+  border-radius: 6px;
+}
+
+.extra-container p, .placement-container p {
+  flex: 1;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
